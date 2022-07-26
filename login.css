@@ -1,0 +1,50 @@
+body{
+    scroll-behavior: smooth;
+    font-family: 'montserrat';
+    background-color: royalblue;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .container{
+    padding: 16px;
+  }
+
+  .border{
+    justify-content: center;
+    background-color: white;
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 100px;
+    padding-bottom: 15px;
+  }
+
+  button{
+    width: 100%;
+    background-color:  #04AA6D;
+    padding: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  button:hover{
+    opacity: 0.8;
+  }
+
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    text-decoration: none;
+    margin-right: 68%;
+    background-color: #f44336;
+  }
